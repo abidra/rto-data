@@ -64,7 +64,7 @@ class ApiController extends Controller
         $enrolment_id = $request->input('enrolment_id');
         $files = $request->input('files');
 
-        return $this->get_rtodata(array
+        return $this->get_rtodata(array(
         'enrolment_id' => $enrolment_id,
         'files' => $files,
     ), 'recieve');
