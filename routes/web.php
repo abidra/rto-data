@@ -19,3 +19,9 @@ Route::get('/', function () {
 });
 
 Route::get('/calendar', [ApiController::class, 'calendar']);
+Route::get('/check', [ApiController::class, 'check']);
+Route::get('/detail', [ApiController::class, 'detail']);
+Route::get('/enrol', [ApiController::class, 'enrol']);
+Route::get('/list', [ApiController::class, 'list']);
+Route::get('/recieve', [ApiController::class, 'recieve']);
+Route::get('/update', [ApiController::class, 'update']);
